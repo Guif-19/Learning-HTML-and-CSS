@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .banner {
-    background-image: url('caminho/para/imagem.jpg');
+    background-image: url('C:\Users\bamfn\Desktop\infalto\projeto\banner.png');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -13,11 +13,11 @@
   .banner h1 {
     color: white;
     font-size: 48px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px #304d6d;
     text-shadow:
-      -1px -1px 0 black,
-       1px -1px 0 black,
-      -1px  1px 0 black,
-       1px  1px 0 black;
+      1px 1px 0 #000000,
+      1px 1px 0 #000000,
+      1px 1px 0 #000000,
+      1px 1px 0 #000000;
   }
   
