@@ -1,2 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+.banner {
+    background-image: url('caminho/para/imagem.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner h1 {
+    color: white;
+    font-size: 48px;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+      -1px -1px 0 black,
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+  }
+  
