@@ -63,25 +63,36 @@
     .banner h1 {
       font-size: 48px;
     }
+/* 
+    .produtos {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 40px;
+      padding: 40px;
+    } */
+
 
     .produtos {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 40px;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
     }
 
     .produto {
       background-color: #a7cced;
-      padding: 15px;
-      border-radius: 8px;
+      width: 250px;
+      padding: 10px;
+      border-radius: 5px;
       text-align: center;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-
+    
     .produto img {
-      max-width: 100%;
-      border-radius: 8px;
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
     }
 
     .produto h3 {
@@ -131,3 +142,35 @@
       1px 1px 0 #000000;
   }
   
+  .botao-remover {
+    background-color: #e74c3c;
+    color: white;
+    border: 2px solid #000000;;
+    padding: 10px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+
+  .botao-remover:hover {
+    background-color: #000000;
+  }
+
+  .botao-finalizar {
+    background-color: #52b257;
+    color: white;
+    border: 2px solid #000000;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+
+  .botao-finalizar:hover {
+    background-color: #000000;
+  }
