@@ -74,12 +74,18 @@
 
     .produtos {
       display:flex;
-      flex-wrap: wrap;
+      align-items:end;
       justify-content: center;
       gap: 25px;
     }
 
+    /* .produtos div {
+      width: 100px;
+      height: 100px;
+    } */
+
     .produto {
+      margin-top: 20px;
       background-color: #a7cced;
       width: 250px;
       padding: 10px;
