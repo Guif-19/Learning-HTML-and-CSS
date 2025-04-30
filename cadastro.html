@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta name="descripstion" content="Faça seu cadastro"> 
+        <style>
+            body {
+                background-image: url('./infoClothes_logo.png');
+                background-size: auto; 
+                background-position: center; 
+                background-attachment: fixed; 
+                background-color: #a7cced; 
+                margin: 0;
+                min-height: 100vh;
+            }
+        </style>
+        
+        <link rel="stylesheet" href="stylelogin.css">
+            
+    </head>
+
+    <body>
+        <header>
+            <h1>Cadastro</h1>
+        </header>
+    <main>
+        <h2>Faça seu cadastro</h2>
+        <form>
+            <fieldset>
+                <legend>Suas informações</legend>
+                <label for="name">Insira seu nome</label><br>
+                <input type="text" name="name" id="name" placeholder="Digite aqui"><br>
+                
+                <label for="email">Insira seu email</label><br>
+                <input type="email" name="email" id="email" placeholder="Digite aqui"><br>
+                
+                <label for="password">Crie uma senha de 12 dígitos</label><br>
+                <input type="password" name="password" id="password" placeholder="Digite aqui" minlength="12" maxlength="12"><br>
+
+                <label for="date">Informe sua data de nascimento</label><br>
+                <input type="date" name="date" id="date" class="custom-date-input"><br><br>
+                <button>
+                    Enviar
+                </button>
+                <h3>Ja tem uma conta?<a href="login.html"target="_blank">Login</a></h3>
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Loja de Roupas. Todos os direitos reservados.</p>
+        <p>Site criado pela empresa Júnior Infoalto</p>
+    </footer>
+    
+    
+    </body>
+</html>
