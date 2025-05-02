@@ -9,14 +9,15 @@
 
     body {
       font-family: 'Krona One', sans-serif;
-      background-color: #304d6d;
+      background-color: #1e90ff;
       color: #545e75;
     }
 
     header {
-      background-color: #a7cced;
+      background-color: #304d6d;
       padding: 20px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgb(255, 255, 255);
+      text-align: center;
     }
 
     .logo img {
@@ -40,7 +41,7 @@
 
     nav ul li a {
       text-decoration: none;
-      color: #545e75;
+      color: white;
       transition: color 0.3s;
     }
 
@@ -107,7 +108,7 @@
     }
 
     .produto p {
-      color: #304d6d;
+      color: white;
       font-weight: bold;
     }
 
@@ -119,11 +120,12 @@
     }
 
     footer {
-      background-color: #a7cced;
+      background-color: #304d6d;
       text-align: center;
       padding: 20px;
       margin-top: 40px;
-      box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 -2px 4px rgba(255, 255, 255, 0.952);
+      color:white;
     }
   
 
@@ -140,7 +142,7 @@
   .banner h1 {
     color: white;
     font-size: 48px;
-    -webkit-text-stroke: 1px #304d6d;
+    -webkit-text-stroke: 1px white;
     text-shadow:
       1px 1px 0 #000000,
       1px 1px 0 #000000,
