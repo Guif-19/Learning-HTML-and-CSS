@@ -1,0 +1,118 @@
+/*
+#545E75
+#63adf2
+#a7cced
+#304d6d
+#82a0bc
+*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Krona One', sans-serif;
+    background-color: #304d6d;
+    color: #545e75;
+  }
+
+  header {
+    background-color: #a7cced;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  } 
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #545e75;
+    transition: color 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #007BFF;
+  }
+
+.container {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+
+.imagem-produto img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.detalhes {
+  max-width: 600px;
+}
+
+.detalhes h1 {
+  margin-top: 0;
+}
+
+.preco {
+  color: green;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.descricao, .entrega, .comentarios {
+  margin: 20px 0;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.comentarios ul {
+  padding-left: 20px;
+}
+
+a.voltar {
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  color: #111;
+}
+
+footer {
+    background-color: #a7cced;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  }
+</style>
